@@ -5,8 +5,8 @@ function Card(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.CardTitle}</h5>
                 <p className="card-text">{props.CardText}</p>
-                <a href={props.Link} className="btn btn-primary position-absolute bottom-0 mb-3 mx-2">View Source</a>
-                <a href={props.Link} className="btn btn-primary position-absolute bottom-0 start-50 mb-3 mx-2">Try the App!</a>
+                <a href={props.Link1} target="_blank" rel="noopener noreferrer" className="btn btn-primary position-absolute bottom-0 mb-3 mx-2">View Source</a>
+                <a href={props.Link2} target="_blank" rel="noopener noreferrer" className="btn btn-primary position-absolute bottom-0 start-50 mb-3 mx-2">Try the App!</a>
             </div>
         </div>
     )

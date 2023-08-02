@@ -21,7 +21,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-3">
                     <label className="form-label" htmlFor="subject">
-                        subject
+                        Subject
                     </label>
                     <input className="form-control" type="text" id="subject" required />
                 </div>

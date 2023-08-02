@@ -24,10 +24,10 @@ function App() {
           <h1 >Projects</h1>
         </div>
         <div className="d-flex flex-row justify-content-center">
-          <Card CardTitle="This Website" CardText="The source code for this website" Link="" Image="./images/laptop.jpg" />
-          <Card CardTitle="Compression CLI" CardText="CLI app written in go to perform file compression and decompression" Link="" Image="./images/zip.jpg" />
-          <Card CardTitle="Azure Resource Requestor" CardText="Website for requesting Azure resources in Terraform" Link="" Image="./images/terraform-azure.png" />
-          <Card CardTitle="VR AI app" CardText="Some unity VR app with AI in it" Link="" Image="./images/VR-Healthcare-scaled.jpg" />
+          <Card CardTitle="This Website" CardText="The source code for this website" Link1="https://github.com/jogeorg/website" Link2="error.html" Image="./images/laptop.jpg" />
+          <Card CardTitle="Compression CLI" CardText="CLI app written in go to perform file compression and decompression" Link1="" Image="./images/zip.jpg" />
+          <Card CardTitle="Azure Resource Requestor" CardText="App for requesting Azure resources in Terraform" Link1="" Image="./images/terraform-azure.png" />
+          <Card CardTitle="VR AI app" CardText="Some unity VR app with AI in it" Link1="" Image="./images/VR-Healthcare-scaled.jpg" />
         </div>
       </div>
       <div id="Contact" className="py-5">
