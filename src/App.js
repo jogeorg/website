@@ -2,8 +2,10 @@
 import './App.css';
 import NavBar from './components/Navbar';
 import Card from './components/Card';
-import Resume from './components/Resume'
-import Contact from './components/Contact'
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
+import Testimonials from './components/testimonials'
 
 function App() {
   return (
@@ -12,9 +14,14 @@ function App() {
       <header className="App-header">
       </header>
       <div className="row">
-        <img src="./images/pexels-pixabay-36717.jpg" className="h-100" alt="..." />
+        <img src="./images/pexels-pixabay-36717.jpg" alt="..." />
       </div>
-
+      <div id="AboutMe">
+        <AboutMe />
+      </div>
+      {/* <div id="test">
+        <Testimonials />
+      </div> */}
       <div id="Resume" className="vh-100 py-5 justify-content-center">
         <h1 className="text-center">Resume</h1>
         <Resume />
