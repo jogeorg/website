@@ -48,7 +48,14 @@ function AboutMe(props) {
             <div className="py-2">
                 <div className="aboutMe">
                     <h3>Verteran Affairs Financial Management and Business Transactions</h3>
-                    <p>Azure synapse, data factory, HIPAA data, Azure SQL, Terraform</p>
+                    <p>
+                        The VA FMBT needed a more robust data warehousing solution that also facilitated inexpesive ad-hoc report quering.
+                        The design for this was a modified dataverse. Azure Data Factory would copy the on-premises mySQL database using self-hosted integration runtimes.
+                        The data would then flow through three data cleaning and quarentining storage facilities before being loaded in the the Azure SQL manageed instance.
+                        THe entire system had to adhere to strick HIPAA laws. The ad-hoc quering design involved oracle golden gate and big data virtual machines to copy the
+                        database into parquet files and load them into azure synapse dedicated SQL database.
+                        Azure synapse, data factory, HIPAA data, Azure SQL, Terraform
+                    </p>
                 </div>
             </div>
             <div className="py-2">
