@@ -14,6 +14,12 @@ function NavBar() {
                             <a className="nav-link active" style={{ "color": "#ffffff" }} aria-current="page" href="#AboutMe">About Me</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link active" style={{ "color": "#ffffff" }} aria-current="page" href="#custss">Customer Stories</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" style={{ "color": "#ffffff" }} aria-current="page" href="#certs">Certifications</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link active" style={{ "color": "#ffffff" }} aria-current="page" href="#Resume">Resume</a>
                         </li>
                         <li className="nav-item">
