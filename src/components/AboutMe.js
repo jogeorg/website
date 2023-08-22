@@ -52,31 +52,31 @@ function AboutMe(props) {
             </div>
             <div className="py-5 row text-center justify-content-center">
                 <h2 id="certs">Certifications</h2>
-                <div className="">
+                <div>
                     <table className="table table-responsive">
-                        <tr className="pw-1 border">
-                            <td>Azure Certified: DevOps Engineer Expert</td>
-                            <td>Azure Certified: Azure AI Engineer</td>
-                            <td>SAS Certified Statistical Business Analyst Using SAS 9: Regression and Modeling</td>
-                            <td>Azure Certified: Azure Security Engineer</td>
+                        <tr className="pw-1 ph-1 border">
+                            <td className="pw-1 ph-1 border">Azure Certified: DevOps Engineer Expert</td>
+                            <td className="pw-1 ph-1 border">Azure Certified: Azure AI Engineer</td>
+                            <td className="pw-1 ph-1 border">SAS Certified Statistical Business Analyst Using SAS 9: Regression and Modeling</td>
+                            <td className="pw-1 ph-1 border">Azure Certified: Azure Security Engineer</td>
                         </tr>
-                        <tr>
-                            <td>Azure Certified: Azure Data Scientist</td>
-                            <td>CISSP</td>
-                            <td>SAS Certified Specialist: Base Programming Using SAS 9.4</td>
-                            <td>Azure Certified: Azure administrator</td>
+                        <tr className="pw-1 ph-1 border">
+                            <td className="pw-1 ph-1 border">Azure Certified: Azure Data Scientist</td>
+                            <td className="pw-1 ph-1 border">CISSP</td>
+                            <td className="pw-1 ph-1 border">SAS Certified Specialist: Base Programming Using SAS 9.4</td>
+                            <td className="pw-1 ph-1 border">Azure Certified: Azure administrator</td>
                         </tr>
-                        <tr>
-                            <td>CompTIA Security+</td>
-                            <td>CompTIA Network+</td>
-                            <td>CompTIA Linux+</td>
-                            <td>CompTIA Project+</td>
+                        <tr className="pw-1 ph-1 border">
+                            <td className="pw-1 ph-1 border">CompTIA Security+</td>
+                            <td className="pw-1 ph-1 border">CompTIA Network+</td>
+                            <td className="pw-1 ph-1 border">CompTIA Linux+</td>
+                            <td className="pw-1 ph-1 border">CompTIA Project+</td>
                         </tr>
-                        <tr>
-                            <td>CCNA - Security</td>
-                            <td>CCNA - Routing and Switching</td>
-                            <td>CompTIA A+</td>
-                            <td>Microsoft Certified Trainer</td>
+                        <tr className="pw-1 ph-1 border">
+                            <td className="pw-1 ph-1 border">CCNA - Security</td>
+                            <td className="pw-1 ph-1 border">CCNA - Routing and Switching</td>
+                            <td className="pw-1 ph-1 border">CompTIA A+</td>
+                            <td className="pw-1 ph-1 border">Microsoft Certified Trainer</td>
                         </tr>
                     </table>
                 </div>
