@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
       </header>
       <div className="row">
-        <img src="./images/103.JPEG" alt="..." />
+        <img src="./images/948654.jpg" alt="..." />
       </div>
       <div id="AboutMe">
         <AboutMe />
@@ -34,7 +34,7 @@ function App() {
           <Card CardTitle="This Website" CardText="The source code for this website" Link1="https://github.com/jogeorg/website" Link2="error.html" Image="./images/laptop.jpg" />
           <Card CardTitle="Microservices with GO" CardText="microservice apps written in go" Link1="https://github.com/jogeorg/go-micro" Image="./images/zip.jpg" />
           <Card CardTitle="Azure Resource Requestor" CardText="App for requesting Azure resources in Terraform" Link1="" Image="./images/terraform-azure.png" />
-          <Card CardTitle="VR AI app" CardText="Some unity VR app with AI in it" Link1="" Image="./images/VR-Healthcare-scaled.jpg" />
+          {/* <Card CardTitle="VR AI app" CardText="Some unity VR app with AI in it" Link1="" Image="./images/VR-Healthcare-scaled.jpg" /> */}
         </div>
       </div>
       <div id="Contact" className="py-5">
