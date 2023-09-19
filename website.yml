@@ -2,7 +2,6 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: website
-  namespace: website
 spec:
   replicas: 1
   selector:
@@ -15,7 +14,7 @@ spec:
     spec:
       containers:
         - name: website
-          image: jmgdemo.azurecr.us/website:1.0.0
+          image: jmgdemo.azurecr.us/website:1.0.1
           imagePullPolicy: Always
           resources:
             limits:
@@ -29,7 +28,6 @@ kind: Service
 apiVersion: v1
 metadata:
   name: website
-  namespace: website
 spec:
   ports:
     - port: 80
