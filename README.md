@@ -4,3 +4,5 @@
 If you have any tips and suggestions, please do not hesitate to reach out!
 
 Thank you!
+
+- Planning to add the CI/CD processes with GitHub Actions soon
