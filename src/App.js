@@ -32,8 +32,8 @@ function App() {
         </div>
         <div className="d-flex flex-row justify-content-center">
           <Card CardTitle="This Website" CardText="The source code for this website" Link1="https://github.com/jogeorg/website" Link2="error.html" Image="./images/laptop.jpg" />
-          <Card CardTitle="Microservices with GO" CardText="microservice apps written in go" Link1="https://github.com/jogeorg/go-micro" Link2="/go-micro" Image="./images/zip.jpg" />
-          <Card CardTitle="Azure Resource Requestor" CardText="App for requesting Azure resources in Terraform" Link1="https://dev.azure.com/mg8600/Dev-Space" Link2="" Image="./images/terraform-azure.png" />
+          <Card CardTitle="Microservices with GO" CardText="microservice apps written in go" Link1="https://github.com/jogeorg/go-micro" Link2="https://go-micro.johnmichaelgeorge.com" Image="./images/zip.jpg" />
+          <Card CardTitle="Azure Resource Requestor" CardText="App for requesting Azure resources in Terraform" Link1="https://dev.azure.com/mg8600/Dev-Space" Link2="https://github.com/jogeorg/solution_accelerator/" Image="./images/terraform-azure.png" />
           {/* <Card CardTitle="VR AI app" CardText="Some unity VR app with AI in it" Link1="" Image="./images/VR-Healthcare-scaled.jpg" /> */}
         </div>
       </div>
