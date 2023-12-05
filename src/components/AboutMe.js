@@ -14,11 +14,16 @@ function AboutMe(props) {
         <div>
             <div className="py-5">
                 <div className="text-center">
-                    <h1>About Me</h1>
+                    <h1>About Me: Igniting Solutions in the World of Technology</h1>
                 </div>
                 <p>
-                    Learn-it-all with a growth mindset, I never shy away from a challenge. I eagerly engage with difficult problems and enjoy the complexity of facing a problem that has no known solution. I enjoy developing a solution to a problem Through trial, error, and iterative small successes. This is why I am passionate and drawn to technology and DevOps methodologies. My technology journey begins when I joined the Tennessee Air National Guard in 2012 as a “3D0,” Cyberspace system administrator. I developed my skills and understanding of Windows and Linux system engineering, network architecture, and site reliability engineering of critical business apps through Kubernetes, containerization, and hypervisor technologies. I then transitioned to an Azure DevOps Engineer position in Microsoft’s federal consulting business unit. There, I use my subject matter expertise to lead government customers through their digital transformation.
-                </p>
+                    Embarking on a continuous quest for knowledge, I thrive on challenges that push the boundaries of what's possible. With a growth mindset at my core, I find joy in unraveling the intricacies of problems that defy conventional solutions. I am not one to back down; instead, I eagerly embrace the complexity of the unknown, reveling in the process of turning challenges into triumphs through trial, error, and the sweet taste of incremental victories.
+
+                    My passion for technology and dedication to DevOps methodologies stem from this innate desire to conquer the unconquerable. My journey commenced in 2012 when I enlisted in the Tennessee Air National Guard as a "3D0," Cyberspace system administrator. In the dynamic world of military tech, I honed my skills in Windows and Linux system engineering, delved into the intricacies of network architecture, and mastered the art of site reliability engineering. From Kubernetes to containerization and hypervisor technologies, I immersed myself in cutting-edge solutions to ensure the seamless operation of critical business applications.
+
+                    The evolution of my technical prowess took a significant leap when I transitioned to the role of an Azure DevOps Engineer in Microsoft's federal consulting business unit. Armed with my subject matter expertise, I assumed the mantle of a digital transformation guide for government customers. Leading them through the intricate terrain of technological innovation, I orchestrated solutions that not only addressed their immediate needs but also laid the groundwork for future success.
+
+                    In every role, I bring not just technical acumen but a strategic mindset that transforms challenges into opportunities. I am not just a problem solver; I am an architect of solutions, navigating the ever-changing landscape of technology with confidence and a hunger for the next big breakthrough.                </p>
             </div>
 
             <div id="custss">
@@ -27,27 +32,24 @@ function AboutMe(props) {
 
             <div className="py-2">
                 <div className="aboutMe">
-                    <h3>Kobayashi Maru</h3>
+                    <h3>Transformational Resilience at Kobayashi Maru</h3>
                     <p>
-                        The United States Space Force's Kobayashi Maru organization was faced with a challenging situation. The facility which housed their primary datacenter was being decommissioned. However, due to funding constraints, a new facility that could accommodate their current on-premises infrastructure was never procured. Their organization hosts more than 30 highly available applications to thousands of customers globally. The maximum allowable downtime for any given application cannot exceed 2 minutes. The legacy infrastructure comprised of several thousand nodes of VMware Tanzu Kubernetes orchestration with supporting software such as harbor, contour/envoy, argoCD, and GitLab. On a short timeframe, I was able to migrate their entire on-premises infrastructure to Azure Kubernetes Service clusters. I was also able to continue using the same supporting software suite to minimize the current developers and maintainers knowledge debt. This prevented the existing management team from having to learn a new technology stack and downtime never exceeded the allowable two minutes during the cutover.
+                        As the strategic leader at Kobayashi Maru within the United States Space Force, I orchestrated a decisive response to a critical infrastructure challenge. Facing the decommissioning of our primary datacenter and constrained by budgetary limitations, I successfully led the migration of over 30 mission-critical applications serving thousands of global customers to Azure Kubernetes Service clusters. Leveraging my expertise in VMware Tanzu Kubernetes orchestration and associated software suite, including harbor, contour/envoy, argoCD, and GitLab, I ensured a seamless transition without exceeding the mandated 2-minute downtime. My strategic approach not only averted potential disruptions but also minimized knowledge debt for the existing team, as they continued with familiar technologies.                    </p>
+                </div>
+            </div>
+            <div className="py-2">
+                <div className="aboutMe">
+                    <h3>Modernizing VA FMBT's Data Landscape</h3>
+                    <p>
+                        As a data engineer for the Veteran Affairs Financial Management and Business Transactions (VA FMBT), I revolutionized their data infrastructure to meet the demands of the modern era. Faced with outdated data warehousing solutions and the need for robust ad-hoc querying, I implemented a cutting-edge solution using a modified Dataverse. Utilizing Azure Data Factories, I orchestrated the seamless transition of petabytes of HIPAA-compliant and transactional data through three meticulously designed data lakes into Azure Synapse SQL managed instances. My leadership ensured strict adherence to HIPAA and financial protection laws, and through rigorous scrutiny and cross-team collaboration, we achieved a coveted 3-year Authority to Operate (ATO), solidifying our commitment to data security and compliance.
                     </p>
                 </div>
             </div>
             <div className="py-2">
                 <div className="aboutMe">
-                    <h3>Verteran Affairs Financial Management and Business Transactions</h3>
+                    <h3>Pioneering Secure Collaboration at JAIC</h3>
                     <p>
-                        The VA FMBT hosts several petabytes of veteran’s HIPAA and transactional data. Their data warehousing solution was antiquated, and they needed a more robust solution that also offered inexpensive ad-hoc report querying. The design we developed to meet this need was a modified Dataverse. I leveraged Azure Data Factories to copy the on-premises SQL database. The data would then transition through three data cleaning and quarantining data lakes before being loaded in the Azure synapse SQL managed instances. The entire system had to adhere to strict HIPAA and financial protection laws. Furthermore, the entire system had to meet strict disaster recovery and data retention policies as well. Through meticulous scrutiny and cross-team coordination we were able to obtain a 3-year ATO.
-
-                    </p>
-                </div>
-            </div>
-            <div className="py-2">
-                <div className="aboutMe">
-                    <h3>Joint Artificial Intelligence Center</h3>
-                    <p>
-                        JAIC is a cross-organizational, cross-industry AI delivery platform that allows other government agencies and individuals from academia to leverage the power of the Azure Cloud and OpenAI technologies to collaborate, develop, and train complex AI models. Data confidentiality, integrity, and availability were paramount for this product. Proper authentication and authorization paired with just-in-time access and a least-privilege design was top priority. This project presented a unique challenge as no one was allowed to access the production environment during the delivery. This challenge becomes two-fold as it not only makes all pushes to production immutable, but also prevents any manual configuration from occurring whatsoever. The entirety of the platform must be automated. Furthermore, there wasn’t a pre-production or UAT environment. Only development and production. Cross-organizational, cross-industry authentication was achieved through a combination of Azure Active Directory, Active Directory Federated Services, and KeyCloak. By leveraging Terraform deployed with CI/CD pipelines tightly controlled through branching policies and a rigorous pull request process, I was able to deliver a fully automated, highly secure $106 million dollar AI platform.
-                    </p>
+                        As the DevOps lead at the Joint Artificial Intelligence Center (JAIC), I spearheaded the creation of a groundbreaking AI delivery platform that transcended organizational and industry boundaries. Tasked with ensuring the utmost confidentiality, integrity, and availability of sensitive data on Azure Cloud and OpenAI technologies, I navigated the unique challenge of an entirely immutable production environment. Through the meticulous implementation of proper authentication and authorization protocols, including Azure Active Directory, Active Directory Federated Services, and KeyCloak, I enabled cross-organizational, cross-industry collaboration. Overcoming the absence of pre-production or UAT environments, I delivered a fully automated and highly secure $106 million AI platform. My strategic use of Terraform, combined with robust CI/CD pipelines and stringent branching policies, set the standard for secure and efficient project delivery in a complex and dynamic landscape.                    </p>
                 </div>
             </div>
             <div className="py-5 row text-center justify-content-center">
