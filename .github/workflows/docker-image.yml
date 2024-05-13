@@ -14,5 +14,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build . --file dockerfile --tag "${{ secrets.ACR }}":$(date +%s)
+
+    - name: setup
+      run: echo "VERSION=$(($(date +%s)/60))" >> $GITHUB_ENV
+    
+    - name: Login to ACR
+      uses: azure/docker-login@v1
+      with:
+        login-server: ${{ secrets.ACR }}
+        username: ${{ secrets.ACR_USERNAME }}
+        password: ${{ secrets.ACR_PASSWORD }}
+
+    - name: Build and push
+      run: |
+          docker build . --file dockerfile --tag ${{ secrets.ACR }}/website/website:${{ env.VERSION }}
+          docker push ${{ secrets.ACR }}/website/website:${{ env.VERSION }}
