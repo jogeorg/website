@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: website
-          image: jmgdemo.azurecr.us/website/website:1.0.4
+          image: jmgdemo.azurecr.us/website/website:28593871
           imagePullPolicy: Always
           resources:
             limits:
