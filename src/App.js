@@ -6,11 +6,12 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
 import Testimonials from './components/testimonials'
+import NavbarComponent from './components/NavbarComponent'
 
 function App() {
   return (
     <div className="App container" >
-      <NavBar />
+      <NavbarComponent />
       <header className="App-header">
       </header>
       <div className="row">
@@ -30,7 +31,7 @@ function App() {
         <div id="Projects" className="py-5 text-center">
           <h1 >Active Projects</h1>
         </div>
-        <div className="d-flex flex-row justify-content-center">
+        <div className="d-flex flex-wrap justify-content-center">
           <Card CardTitle="This Website" CardText="The source code for this website" Link1="https://github.com/jogeorg/website" Link2="error.html" Image="./images/laptop.jpg" />
           <Card CardTitle="Microservices with GO" CardText="microservice apps written in go" Link1="https://github.com/jogeorg/go-micro" Link2="https://go-micro.johnmichaelgeorge.com" Image="./images/zip.jpg" />
           <Card CardTitle="The MAVE" CardText="AI powered Azure Infrstructure with Terraform" Link1="https://dev.azure.com/mg8600/_git/Dev-Space?path=/JavascriptWebAppSample" Link2="https://dev.azure.com/mg8600/Dev-Space" Image="./images/terraform-azure.png" />
